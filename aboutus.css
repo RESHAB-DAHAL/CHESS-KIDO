@@ -1,0 +1,60 @@
+/* Reset default margins */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* About Us Section */
+.about-section {
+  padding: 60px 20px;
+  background-image: url('chess-bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.about-container h1 {
+  font-size: 2.5em;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-container p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about-container strong {
+  color: #1a73e8;
+}
+
+.chess-link {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #2e2e2e; /* dark board tone */
+  color: #f0d9b5; /* light square tone */
+  text-decoration: none;
+  font-family: 'Georgia', serif;
+  font-size: 18px;
+  border: 2px solid #b58863; /* border like dark square */
+  border-radius: 6px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+}
+.chess-link:hover {
+  background-color: #b58863; /* dark square */
+  color: #2e2e2e; /* flip colors like a move */
+  transform: translateY(-2px);
+}

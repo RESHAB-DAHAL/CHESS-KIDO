@@ -1,0 +1,90 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #e0f7fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #00bcd4;
+  padding: 20px;
+  color: white;
+  border-bottom: 5px solid #0097a7;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2em;
+  margin-top: 5px;
+}
+
+.back-home {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #ffffff;
+  color: #00bcd4;
+  padding: 8px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.lesson-section {
+  padding: 30px;
+  background-color: #b2ebf2;
+}
+
+.lesson-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.lesson-section li {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.content-block {
+  padding: 30px;
+  background-color: #ffffff;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.content-block img {
+  width: 250px;
+  margin: 15px 0;
+  border: 2px solid #00bcd4;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #00bcd4;
+  color: white;
+  padding: 15px;
+  border-top: 5px solid #0097a7;
+  font-size: 0.9em;
+}
+button {
+    border: none;
+    background-color: #333;
+    color: #b2ebf2;
+    box-shadow: 10px 10px 20px black;
+    transition: opacity 0.15s;
+    
+}
+.yt {
+    color: #b2ebf2;
+    text-decoration: none;
+    font-size: 40px;
+}
+button:hover{
+    opacity: 0.6;
+}
