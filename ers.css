@@ -1,0 +1,115 @@
+/* ELO.css */
+
+/* Fun font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+body {
+  font-family: 'Comic Neue', cursive;
+  background: linear-gradient(to bottom right, #fceabb, #f8b500);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #ff6f61;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 5px dashed #fff;
+}
+
+header h1 {
+  font-size: 3em;
+  margin: 0;
+  animation: bounce 1.5s infinite;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  border-radius: 20px;
+  margin-top: 10px;
+  display: inline-block;
+  transition: transform 0.3s;
+}
+
+nav a:hover {
+  transform: scale(1.2);
+}
+
+main {
+  padding: 20px;
+}
+
+.intro, .how-it-works, .calculator {
+  background-color: #fff8dc;
+  border: 3px dotted #ff6f61;
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2, h3 {
+  color: #ff6f61;
+  text-shadow: 1px 1px #fff;
+}
+
+ul {
+  list-style-type: "🧠 ";
+  padding-left: 20px;
+}
+
+input[type="number"] {
+  padding: 10px;
+  border: 2px solid #ffcc00;
+  border-radius: 10px;
+  margin: 5px;
+  width: 100px;
+  font-size: 1em;
+}
+
+button {
+  background-color: #00c2cb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0097a7;
+}
+
+#result {
+  margin-top: 15px;
+  font-size: 1.2em;
+  color: #00695c;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #ff6f61;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9em;
+  border-top: 5px dashed #fff;
+}
+
+/* Fun bounce animation */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
