@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chess Kido | Elo Rating System</title>
+  <link rel="stylesheet" href="ers.css" />
+</head>
+<body>
+  <header>
+    <h1>Chess Kido</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>What is the Elo Rating System?</h2>
+      <p>
+        The Elo rating system is a method for calculating the relative skill levels of players in two-player games such as chess. Developed by Arpad Elo, it is widely used by chess federations around the world.
+      </p>
+    </section>
+
+    <section class="how-it-works">
+      <h3>How It Works</h3>
+      <ul>
+        <li>Each player has a rating, typically starting around 1200.</li>
+        <li>When two players compete, the expected outcome is calculated based on their ratings.</li>
+        <li>After the game, ratings are adjusted depending on the result and the expected score.</li>
+        <li>Winning against a stronger opponent gains more points; losing to a weaker one loses more.</li>
+      </ul>
+    </section>
+
+    <section class="calculator">
+      <h3>Try the Elo Calculator</h3>
+      <label for="playerA">Player A Rating:</label>
+      <input type="number" id="playerA" value="1500" />
+      <label for="playerB">Player B Rating:</label>
+      <input type="number" id="playerB" value="1600" />
+      <button onclick="calculateElo()">Calculate Expected Scores</button>
+      <div id="result"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Chess Kido. All rights reserved.</p>
+  </footer>
+
+  <script src="elosystem.js"></script>
+</body>
+</html>
